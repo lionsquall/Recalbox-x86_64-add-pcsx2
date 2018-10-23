@@ -1,0 +1,22 @@
+config BR2_PACKAGE_PCSX2
+    bool "pcsx2"
+    depends on BR2_x86_64
+    depends on BR2_PACKAGE_XORG7
+    depends on BR2_PACKAGE_LIBGTK2
+    select BR2_PACKAGE_LIBEVDEV
+    select BR2_PACKAGE_FFMPEG
+    select BR2_PACKAGE_ZLIB
+    select BR2_PACKAGE_LIBPNG
+    select BR2_PACKAGE_LZO
+    select BR2_PACKAGE_LIBUSB
+    select BR2_PACKAGE_LIBCURL
+    select BR2_PACKAGE_SFML
+    select BR2_PACKAGE_BLUEZ5_UTILS
+    select BR2_PACKAGE_CAIRO_SCRIPT
+
+    help
+      A  sony playstation 2 emulator.
+      https://github.com/PCSX2/pcsx2
+
+comment "pcsx2 needs x86_64, XORG7, LIBGTK2"
+    depends on !BR2_x86_64 || !BR2_PACKAGE_XORG7 || !BR2_PACKAGE_LIBGTK2
