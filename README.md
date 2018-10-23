@@ -2,8 +2,8 @@
 # Recalbox-x86_64-add-pcsx2
 #
 **(Work in progress)**
-
-PCSX2 is an open-source PlayStation 2 (AKA PS2) emulator. Its purpose is to emulate the PS2 hardware.
+#
+#PCSX2 is an open-source PlayStation 2 (AKA PS2) emulator. Its purpose is to emulate the PS2 hardware with many additional features
 #
 # Project 
 #
