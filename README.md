@@ -3,7 +3,7 @@
 #
 **(Work in progress)**
 #
-#PCSX2 is an open-source PlayStation 2 (AKA PS2) emulator. Its purpose is to emulate the PS2 hardware with many additional features
+PCSX2 is an open-source PlayStation 2 (AKA PS2) emulator. Its purpose is to emulate the PS2 hardware with many additional features
 #
 # Project 
 #
