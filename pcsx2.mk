@@ -17,7 +17,7 @@ endif
 #PCSX2_DEPENDENCIES = xserver_xorg-server libevdev ffmpeg zlib libpng lzo libusb libcurl sfml bluez5_utils libgtk2
 PCSX2_DEPENDENCIES = sdl portaudio libpng zlib libaio libgtk2 xserver_xorg-server libevdev ffmpeg bluez5_utils wxwidgets 
 #opengl 
-## dependencies ok: portaudio-v190600_20161030,libaio-0.3.110, wxwidgets-v3.1.0
+## Packages add: portaudio-v190600_20161030,libaio-0.3.110, wxwidgets-v3.1.0
 
 
 #option configuration
